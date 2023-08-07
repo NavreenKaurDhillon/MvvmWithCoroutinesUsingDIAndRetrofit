@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface ApiInterface {
 
-    @GET("quotes")
+    @GET("products")
     suspend fun getProducts() : List<ProductsItem>
 }
